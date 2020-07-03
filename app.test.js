@@ -5,8 +5,8 @@ test("return new task", ()=>{
 })
 
 test("remove a task", ()=>{
-    expect(removeTask(e)).toBe(e.target.classList.contains('remove-task')) {
-        e.target.parentElement.remove()};
+    expect(removeTask(e)).toBe(e.target.classList.contains('remove-task') {
+        e.target.parentElement.remove()});
 });
 
 test("getting tasks from storage", ()=>{
